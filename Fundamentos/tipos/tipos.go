@@ -32,4 +32,19 @@ func main() {
 	bo := true
 	fmt.Println("O tipo de bo é", reflect.TypeOf(bo))
 	fmt.Println(!bo)
+
+	//string 
+	s1 := "Olá, meu nome é Lucas!"
+	fmt.Println(s1 + " E o seu?")
+	fmt.Println("O tamanho da string s1 é", len(s1))
+
+	//string com multíplas linhas
+	s2 := `Olá
+	meu
+	nome
+	é
+	Lucas`
+	fmt.Println("O tamanho da strinf s2 é", len(s2))
+
+	//char (Não existe)
 }
