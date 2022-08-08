@@ -21,5 +21,4 @@ func main() {
 	fmt.Printf("\n%d %f %.2f %t %s", a, b, b, c, d)
 	fmt.Printf("\n%v %v %v %v", a, b, c, d)
 
-
 }
