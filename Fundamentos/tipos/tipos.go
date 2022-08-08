@@ -27,4 +27,9 @@ func main() {
 	var x float32 = 49.99
 	fmt.Println("O tipo de x é", reflect.TypeOf(x))
 	fmt.Println("O tipo do literal 49.99 é", reflect.TypeOf(49.99)) //float64
+
+	//boolean
+	bo := true
+	fmt.Println("O tipo de bo é", reflect.TypeOf(bo))
+	fmt.Println(!bo)
 }
