@@ -10,4 +10,6 @@ func main() {
 	nota := 6.9
 	notafinal := int(nota)
 	fmt.Println(notafinal)
+
+	fmt.Println("Teste " + string(123))
 }
